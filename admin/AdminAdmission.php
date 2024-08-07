@@ -229,6 +229,14 @@
                             </tfoot>
                         </table>
                     </div>
+
+                        <!-- Report generation -->
+                        <button class="btn-csv"><a id="export" href="exportData.php" >Export to CSV</a></button>
+                        <button class="btn-exportall"><a id="pdf" href="exportApproved.php" class="btn btn-success mb-2" >Export Approved</a></button>
+                        <button class="btn-genrep"><a id="pdf" href="generatepdf.php" class="btn btn-success mb-2" >Generate Report</a></button>
+                        
+                        
+                        
                     </div>
                         
                     <!-- jQuery -->

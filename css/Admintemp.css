@@ -200,11 +200,10 @@
 }
 
 
-
-
 .container {
     position: relative;
-    background-color: #fffdf7;
+    height: 89.5vh;
+    background-color: #8f8f8f;
     width: 100%;
     overflow: hidden;
     
@@ -221,6 +220,34 @@
   
   button:hover {
     background-color: #fff0d1;
+  }
+
+  .btn-csv{
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #00e200;
+    border-radius: 20px;
+    border-color: #aec7ae;
+    color: white;
+    text-decoration: none; /* Remove underline */
+  }
+
+  .btn-genrep{
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #0814c2;
+    border-radius: 20px;
+    border-color: #aec7ae;
+    color: white;
+    text-decoration: none; /* Remove underline */
+  }
+
+
+  a {
+    text-decoration: none; /* Remove underline */
+    color: inherit;
   }
 
 

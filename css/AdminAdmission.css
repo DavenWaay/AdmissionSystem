@@ -1,9 +1,9 @@
 .white-container {   
     width: 97%;
-    background-color: #f9f9f9;
+    background-color: white;
     border-radius: 7px;
     margin: 0 auto; 
-    height: 81vh;
+    height: 85vh;
     padding: 15px;
     margin-top: 15px;
 }
